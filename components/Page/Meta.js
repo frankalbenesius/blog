@@ -1,11 +1,11 @@
-import Head from 'next/head'
+import Head from "next/head";
 export default () => (
   <div>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
 
-    { /* global styles */ }
+    {/* global styles */}
     <style jsx global>{`
       * {
         margin: 0;
@@ -26,4 +26,4 @@ export default () => (
       }
     `}</style>
   </div>
-)
+);

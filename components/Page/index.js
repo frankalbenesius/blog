@@ -1,5 +1,5 @@
-import Link from 'next/prefetch'
-import Meta from './Meta'
+import Link from "next/prefetch";
+import Meta from "./Meta";
 
 export default ({ children }) => (
   <div className="main">
@@ -7,12 +7,12 @@ export default ({ children }) => (
       <Link href="/"><a>albenesi.us</a></Link>
     </div>
 
-    { children }
+    {children}
 
-    { /* global styles and meta tags */ }
+    {/* global styles and meta tags */}
     <Meta />
 
-    { /* local styles */ }
+    {/* local styles */}
     <style jsx>{`
       .main {
         padding: 25px 50px;
@@ -33,4 +33,4 @@ export default ({ children }) => (
       }
     `}</style>
   </div>
-)
+);

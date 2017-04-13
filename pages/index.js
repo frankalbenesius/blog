@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Link from 'next/prefetch'
-import Page from '../components/Page'
+import Head from "next/head";
+import Link from "next/prefetch";
+import Page from "../components/Page";
 
 export default () => (
   <Page>
@@ -13,8 +13,12 @@ export default () => (
         <h1>Frank Albenesius</h1>
         <nav>
           <Link href="/blog"><a>Blog</a></Link>
-          <a target="_blank" href="https://instagram.com/frankalbenesius">Instagram</a>
-          <a target="_blank" href="https://twitter.com/frankalbenesius">Twitter</a>
+          <a target="_blank" href="https://instagram.com/frankalbenesius">
+            Instagram
+          </a>
+          <a target="_blank" href="https://twitter.com/frankalbenesius">
+            Twitter
+          </a>
           <a href="mailto:frankalbenesius@gmail.com">Email</a>
         </nav>
       </div>
@@ -49,4 +53,4 @@ export default () => (
       }
     `}</style>
   </Page>
-)
+);

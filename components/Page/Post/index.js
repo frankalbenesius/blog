@@ -1,9 +1,9 @@
-import Page from '../'
+import Page from "../";
 
 export default ({ children }) => (
   <Page>
     <article>
-      { children }
+      {children}
     </article>
     <style jsx>{`
       article {
@@ -19,4 +19,4 @@ export default ({ children }) => (
       }
     `}</style>
   </Page>
-)
+);
