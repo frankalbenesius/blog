@@ -1,5 +1,5 @@
 import Link from "next/prefetch";
-import Meta from "./Meta";
+import Meta from "../Meta";
 
 export default ({ children }) => (
   <div className="main">

@@ -6,13 +6,17 @@ export default () => (
     </Head>
 
     {/* global styles */}
+    {/* https://palx.jxnblk.com/e33d27 */}
     <style jsx global>{`
       * {
-        margin: 0;
         box-sizing: border-box;
       }
       body {
+        margin: 0;
         font: 16px Menlo, Monaco, monospace, serif;
+      }
+      img {
+        max-width: 100%;
       }
       a {
         color: #e33d27;
@@ -23,6 +27,10 @@ export default () => (
         color: #fff;
         background: #e33d27;
         text-decoration: none;
+      }
+      iframe {
+        width: 100%;
+        border: 0;
       }
     `}</style>
   </div>

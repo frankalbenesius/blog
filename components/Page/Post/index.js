@@ -9,7 +9,6 @@ export default ({ children }) => (
       article {
         max-width: 650px;
         margin: auto;
-        font-size: 14px;
       }
     `}</style>
     <style jsx global>{`
