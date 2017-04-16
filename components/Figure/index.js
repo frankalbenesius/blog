@@ -1,13 +1,17 @@
-export default ({ desc, href, children }) => (
+export default ({ src, children }) => (
   <div>
-    {href ? <a href={href} target="_blank">{children}</a> : children}
-    {desc &&
-      <p>
-        {desc}
-      </p>}
+    <img src={src} />
+    {children
+      ? <p>
+          {children}
+        </p>
+      : null}
     <style jsx>{`
       div {
         margin-bottom: 20px;
+      }
+      img {
+        display: block;
       }
       p {
         font-size: 0.8rem;
