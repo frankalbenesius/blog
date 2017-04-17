@@ -113,7 +113,7 @@ export default () => (
     <p>
       <b>Rosenborg Slot (C):</b>
       {" "}
-      Rosenborg Castle
+      Rosenborg Castle stood out to me from the other historical museums thanks to it's small size. Each room had it's own purpose within the building. And getting to see the Crown Jewels in the basement was pretty cool. Also, I was pretty into the guidebook they hand you at the beggining. That's kind of a lame thing to enjoy, but the way they mapped out each floor on a seperate page was really satisfying.
     </p>
     <Figure src="/static/img/cph/rosenborg.jpg">
       Totally going to design a D&D adventure around this place.
@@ -121,7 +121,7 @@ export default () => (
     <p>
       <b>Rundetaarn (D):</b>
       {" "}
-      The Round Tower
+      I stumbled on the Round Tower while looking for a lunch venue. The tower is really unique and the view at the top is one of the best of downtown Copenhagen.
     </p>
     <Figure src="/static/img/cph/roundtower.jpg">
       I'm pretty sure I've seen a movie scene set here or something...
@@ -129,7 +129,7 @@ export default () => (
     <p>
       <b>Statens Museum for Kunst (E):</b>
       {" "}
-      National Gallery of Denmark{" "}
+      The National Gallery of Denmark was a nice modern museum. The art is displayed in chronological order and is seperated by country of origin.
     </p>
     <Figure src="/static/img/cph/smk.jpg">
       These guys didn't want their photo taken.
@@ -148,9 +148,10 @@ export default () => (
     <p>
       <b>Tivoli (H):</b>
       {" "}
+      The final destination of my night was this amusement park. I'm pretty sure the ticket booth stiffed me out of some change, but I enjoyed walking around the park and playing some games. When it got dark I rode a couple roller coasters. If you ride more than 2-3 rides I would suggest purchasing the unlimited rides pass. The steel roller coaster was short but really fun. I got a great photo of myself on the ride.
     </p>
     <Figure src="/static/img/cph/tivoli.jpg" />
-    <h3>Day 3: Sunday — Canal Tour Sounds Cool</h3>
+    <h3>Day 3: Sunday — Canal Tour & Stuff</h3>
     <Figure src="/static/img/cph/day3.png">Day 3 Walking Route</Figure>
     <p>
       <b>Nyvahn & Canal Tour (B):</b>
@@ -163,6 +164,7 @@ export default () => (
     <p>
       <b>Amalieborg (C):</b>
       {" "}
+      I wasn't that impressed with the inside of this place. Definitely walk through the area here to see the exterior but I would only go inside this one if you were interested in more modern Danish history and artifacts.
     </p>
     <Figure src="/static/img/cph/amalieborg.jpg">
       The gaurds yelled at people several times while they were waiting too close to the wall for the museum to open up. It was funny to see them break their march.
@@ -175,11 +177,12 @@ export default () => (
     <p>
       <b>Pusher Street (E):</b>
       {" "}
-      Freetown Christiania
+      Freetown Christiania is a self-proclaimed autonomous neighborhood. It was mostly known to me as the place to buy weed in Copenhagen. You'll notice I lack photos of this place. That's because there are signs that strictly prohibit it and the dudes at the various stands did not seem very friendly. Definitely a fascinating place to walk through. I think there are places of the neighborhood that I probably missed, too.
     </p>
     <p>
       <b>Copenhagen Street Food (F):</b>
       {" "}
+      One of my favorite destinations of the trip. Basically a warehouse on the waterfront with about twenty street food and alcohol vendors. I bought some tacos and a beer before reading by the water.
     </p>
     <Figure src="/static/img/cph/streetfood.jpg">
       It was a really great day in April so this place was packed.
@@ -252,5 +255,20 @@ export default () => (
     <Figure src="/static/img/cph/Louisiana.jpg">
       A portion of the Barnett Newman exhibit.
     </Figure>
+    <h3>Day 6: Wednesday - Flying Home</h3>
+    <p>
+      <b>The Union Kitchen:</b>
+      {" "}
+      This was the last restaurant I went to in Copenhagen before leaving, and it was one of my favorites. A very hipster interior. Good for brunch!
+    </p>
+    <Figure src="/static/img/cph/waffle.jpg">
+      Chicken & Waffles were awesome. With a side of meatballs cause why not?
+    </Figure>
+    <Figure src="/static/img/cph/coffee.jpg">
+      I did not ask for this, but it's a pretty clever cappuccino decoration.
+    </Figure>
+    <p>
+      In closing, I had a really great time. I feel like I succeeded in seeing all that the city had to offer while soaking up some Danish culture.
+    </p>
   </Post>
 );
