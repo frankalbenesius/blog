@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Post from "../../components/Page/Post";
 import Figure from "../../components/Figure";
-import Quote from "../../components/Quote";
 
 export default () => (
   <Post>
