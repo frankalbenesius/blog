@@ -19,6 +19,9 @@ export default () => (
           <a target="_blank" href="https://twitter.com/frankalbenesius">
             Twitter
           </a>
+          <a target="_blank" href="https://github.com/frankalbenesius">
+            Github
+          </a>
           <a href="mailto:frankalbenesius@gmail.com">Email</a>
         </nav>
       </div>
@@ -48,8 +51,8 @@ export default () => (
         margin-top: 1.5rem;
       }
       a {
-        display: inline-block;
-        margin: 0 1rem;
+        display: block;
+        margin: 1rem;
       }
     `}</style>
   </Page>
