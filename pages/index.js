@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/prefetch";
+import Link from "next/link";
 import Page from "../components/Page";
 
 export default () => (
@@ -12,7 +12,7 @@ export default () => (
       <div className="main">
         <h1>Frank Albenesius</h1>
         <nav>
-          <Link href="/blog"><a>Blog</a></Link>
+          <Link prefetch href="/blog"><a>Blog</a></Link>
           <a target="_blank" href="https://instagram.com/frankalbenesius">
             Instagram
           </a>
