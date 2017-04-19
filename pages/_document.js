@@ -1,6 +1,5 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import flush from "styled-jsx/server";
-import ReactGA from "react-ga";
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -8,14 +7,6 @@ export default class MyDocument extends Document {
     const styles = flush();
     return { html, head, styles };
   }
-
-  // componentDidMount() {
-  //   // initialize google analytics on the custom <Document />
-  //   // pageloads are triggered in the <Page /> componentDidMount
-  //   ReactGA.initialize("UA-81640506-1", {
-  //     debug: true
-  //   });
-  // }
 
   render() {
     return (
