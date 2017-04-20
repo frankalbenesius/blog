@@ -8,7 +8,7 @@ export default () => (
     <h1>Copenhagen in Five Days</h1>
     <Figure src="/static/img/cph/nyhavn1.jpg" />
     <p>
-      In April of 2017, I spent five days exploring Copenhagen. I'd like to write about that trip to better preserve my memories while also helping other travellers plan their own adventure. While researching Copenhagen a bit overwhelmed with all the options. I think my experience and schedule can give other travelers better sense of what to expect. Before I get in to my day-by-day recap, I want to talk about a few other miscellaneous aspects of the trip.
+      In April of 2017, I spent five days exploring Copenhagen. I'd like to write about that trip to better preserve my memories while also helping other travellers plan their own adventure. While researching Copenhagen I felt a bit overwhelmed with all the options. I think my experience and schedule can give other travelers better sense of what to expect. Before I get in to my day-by-day recap, I want to talk about a few other miscellaneous aspects of the trip.
     </p>
     <p>
       <b>Flight:</b>
@@ -112,7 +112,7 @@ export default () => (
     <p>
       <b>Rosenborg Slot (C):</b>
       {" "}
-      Rosenborg Castle stood out to me from the other historical museums thanks to it's small size. Each room had it's own purpose within the building. And getting to see the Crown Jewels in the basement was pretty cool. Also, I was pretty into the guidebook they hand you at the beggining. That's kind of a lame thing to enjoy, but the way they mapped out each floor on a seperate page was really satisfying.
+      Rosenborg Castle stood out to me from the other historical museums thanks to it's small size. Each room had it's own purpose within the building. And getting to see the Crown Jewels in the basement was pretty cool. Also, I was pretty into the guidebook they hand you at the begining. That's kind of a lame thing to enjoy, but the way they mapped out each floor on a seperate page was really satisfying.
     </p>
     <Figure src="/static/img/cph/rosenborg.jpg">
       Totally going to design a D&D adventure around this place.
@@ -251,7 +251,7 @@ export default () => (
       {" "}
       A short walk from the train station, this had a few really large exhibits of different modern artists. Lots of interactive and huge-scale walkthroughs of varying media made by and about the artists. It had a really interesting outdoor section and the kitchen offered some large buffet meals.
     </p>
-    <Figure src="/static/img/cph/Louisiana.jpg">
+    <Figure src="/static/img/cph/louisiana.jpg">
       A portion of the Barnett Newman exhibit.
     </Figure>
     <h3>Day 6: Wednesday - Flying Home</h3>
