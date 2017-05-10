@@ -44,15 +44,15 @@ export default () => (
         text-align: center;
       }
       h1 {
-        font-size: 1rem;
+        font-size: 1em;
+        margin: 0;
         font-weight: normal;
-      }
-      nav {
-        margin-top: 1.5rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
       }
       a {
         display: block;
-        margin: 1rem;
+        line-height: 1.5;
       }
     `}</style>
   </Page>

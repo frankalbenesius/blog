@@ -27,7 +27,8 @@ export default class MyDocument extends Document {
          }
          body {
            margin: 0;
-           font: 16px Menlo, Monaco, monospace, serif;
+           font: 1rem Menlo, Monaco, monospace, serif;
+           color: #311;
          }
          img {
            max-width: 100%;
