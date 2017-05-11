@@ -50,7 +50,7 @@ export default () => (
       {' '}
       In general, the museums and attractions in Copenhagen tend to only be open from 10 to 4. And nothing is open on Monday. These restrictions surprised me a few times and should be considered when planning your own trip.
     </p>
-    <h3>Day 1: Friday — The Battle Against Sleep</h3>
+    <h2>Day 1: Friday — The Battle Against Sleep</h2>
     <Figure src="/static/img/cph/day1.png">Day 1 Walking Route</Figure>
     <p>
       <b>Airbnb (A):</b>
@@ -99,7 +99,7 @@ export default () => (
     <Figure src="/static/img/cph/beef.jpg">
       I almost fell asleep in my Roast Pork. I crashed immediately after this.
     </Figure>
-    <h3>Day 2: Saturday — Museums & Roller Coasters</h3>
+    <h2>Day 2: Saturday — Museums & Roller Coasters</h2>
     <Figure src="/static/img/cph/day2.png">Day 2 Walking Route</Figure>
     <p>
       <b>Kongen's Have (B):</b>
@@ -150,7 +150,7 @@ export default () => (
       The final destination of my night was this amusement park. I'm pretty sure the ticket booth stiffed me out of some change, but I enjoyed walking around the park and playing some games. When it got dark I rode a couple roller coasters. If you ride more than 2-3 rides I would suggest purchasing the unlimited rides pass. The steel roller coaster was short but really fun. I got a great photo of myself on the ride.
     </p>
     <Figure src="/static/img/cph/tivoli.jpg" />
-    <h3>Day 3: Sunday — Canal Tour & Stuff</h3>
+    <h2>Day 3: Sunday — Canal Tour & Stuff</h2>
     <Figure src="/static/img/cph/day3.png">Day 3 Walking Route</Figure>
     <p>
       <b>Nyvahn & Canal Tour (B):</b>
@@ -186,7 +186,7 @@ export default () => (
     <Figure src="/static/img/cph/streetfood.jpg">
       It was a really great day in April so this place was packed.
     </Figure>
-    <h3>Day 4: Monday — Everything is Closed</h3>
+    <h2>Day 4: Monday — Everything is Closed</h2>
     <Figure src="/static/img/cph/day4.png">Day 4 Walking Route</Figure>
     <p>
       <b>Christiansborg (B):</b>
@@ -225,7 +225,7 @@ export default () => (
       {' '}
       was holding an international festival and it started on this night. I bought a ticket and watched for a couple hours as teams from various other countries performed in English. It was funny! And kind of fascinating to see people from so many countries do improv.
     </p>
-    <h3>Day 5: Tuesday — What About Sweden?</h3>
+    <h2>Day 5: Tuesday — What About Sweden?</h2>
     <Figure src="/static/img/cph/day5.png">Day 5 Walking Route</Figure>
     <p>
       <b>Helsingør (B):</b>
@@ -254,7 +254,7 @@ export default () => (
     <Figure src="/static/img/cph/louisiana.jpg">
       A portion of the Barnett Newman exhibit.
     </Figure>
-    <h3>Day 6: Wednesday - Flying Home</h3>
+    <h2>Day 6: Wednesday - Flying Home</h2>
     <p>
       <b>The Union Kitchen:</b>
       {' '}

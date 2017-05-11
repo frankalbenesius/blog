@@ -13,6 +13,7 @@ export default () => (
         <h1>Frank Albenesius</h1>
         <nav>
           <Link prefetch href="/blog"><a>Blog</a></Link>
+          <Link prefetch href="/projects"><a>Projects</a></Link>
           <a target="_blank" href="https://instagram.com/frankalbenesius">
             Instagram
           </a>
@@ -39,20 +40,19 @@ export default () => (
         justify-content: center;
         z-index: -1;
       }
+      h1 {
+        font-size: 1em;
+      }
       .main {
         flex: none;
         text-align: center;
       }
-      h1 {
-        font-size: 1em;
-        margin: 0;
-        font-weight: normal;
-        line-height: 1.5;
-        margin-bottom: 1.5rem;
-      }
       a {
         display: block;
-        line-height: 1.5;
+        line-height: 1.25;
+      }
+      nav {
+        // margin-bottom: 1.5rem;
       }
     `}</style>
   </Page>

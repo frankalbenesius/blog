@@ -1,6 +1,11 @@
 {
   "posts": [
     {
+      "id": "dire-table-retrospective",
+      "date": "May 11, 2017",
+      "title": "Dire Table Retrospective"
+    },
+    {
       "id": "copenhagen-in-five-days",
       "date": "April 15, 2017",
       "title": "Copenhagen in Five Days"

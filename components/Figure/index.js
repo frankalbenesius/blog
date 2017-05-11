@@ -8,7 +8,7 @@ export default ({ src, children }) => (
       : null}
     <style jsx>{`
       div {
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
       }
       img {
         display: block;
