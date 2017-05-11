@@ -25,29 +25,31 @@ const Post = ({ id, date, title }) => (
 
     <style jsx>{`
       .post {
-        margin-bottom: 0.6rem;
+        margin-bottom: 1.25em;
+        line-height: 1.25em;
       }
       .date {
         display: inline-block;
-        width: 11rem;
+        width: 11em;
         text-align: right;
-        margin-right: 2rem;
+        margin-right: 2em;
         color: #999;
       }
       a {
         text-decoration: none;
+        display: inline-block;
       }
-      @media (max-width: 38rem) {
+      @media (max-width: 38em) {
         .post {
-          margin-bottom: 1.5rem;
+          margin-bottom: 1.5em;
         }
         .date {
           display: block;
           width: inherit;
           text-align: inherit;
-          font-size: 0.8rem;
+          font-size: 0.8em;
           color: #ccc;
-          margin-bottom: 0.3rem;
+          margin-bottom: 0.3em;
         }
       }
     `}</style>
