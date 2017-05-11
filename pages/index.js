@@ -1,6 +1,6 @@
-import Head from "next/head";
-import Link from "next/link";
-import Page from "../components/Page";
+import Head from 'next/head';
+import Link from 'next/link';
+import Page from '../components/Page';
 
 export default () => (
   <Page>

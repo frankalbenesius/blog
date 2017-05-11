@@ -1,10 +1,10 @@
-import Link from "next/link";
-import ReactGA from "react-ga";
+import Link from 'next/link';
+import ReactGA from 'react-ga';
 
 const logPageView = () => {
   // I'm pretty sure this isn't ideal.
   // How do I initialize this once instead of every page mount?
-  ReactGA.initialize("UA-81640506-1");
+  ReactGA.initialize('UA-81640506-1');
 
   const page = window.location.pathname;
   ReactGA.set({ page });

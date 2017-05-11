@@ -1,7 +1,7 @@
-import Head from "next/head";
-import Link from "next/link";
-import Page from "../components/Page";
-import { posts } from "../posts";
+import Head from 'next/head';
+import Link from 'next/link';
+import Page from '../components/Page';
+import { posts } from '../posts';
 
 export default () => (
   <Page>
