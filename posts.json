@@ -1,9 +1,14 @@
 {
   "posts": [
     {
-      "id": "dire-table-retrospective",
+      "id": "dire-table-retro",
+      "date": "May 12, 2017",
+      "title": "Dire Table: Retrospective"
+    },
+    {
+      "id": "dire-table",
       "date": "May 11, 2017",
-      "title": "Dire Table Retrospective"
+      "title": "I Made a Thing: Dire Table"
     },
     {
       "id": "copenhagen-in-five-days",

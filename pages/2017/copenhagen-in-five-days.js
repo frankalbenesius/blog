@@ -1,10 +1,12 @@
 import Head from 'next/head';
 import Post from '../../components/Page/Post';
 import Figure from '../../components/Figure';
+import Date from '../../components/Date';
 
 export default () => (
   <Post>
     <Head><title>Copenhagen in Five Days</title></Head>
+    <Date>April 15, 2017</Date>
     <h1>Copenhagen in Five Days</h1>
     <Figure src="/static/img/cph/nyhavn1.jpg" />
     <p>

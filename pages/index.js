@@ -51,9 +51,6 @@ export default () => (
         display: block;
         line-height: 1.25;
       }
-      nav {
-        // margin-bottom: 1.5rem;
-      }
     `}</style>
   </Page>
 );

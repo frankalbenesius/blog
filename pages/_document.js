@@ -42,6 +42,8 @@ export default class MyDocument extends Document {
          }
          h1 {
            font-size: 1.25em;
+           line-height: 1;
+           margin: 1em 0 2em;
          }
          h2 {
            margin-top: 2.5em;
@@ -65,6 +67,12 @@ export default class MyDocument extends Document {
            font-size: 1em;
            line-height: 1.25em;
            margin: 1.25em 0;
+         }
+         code {
+           font: 1rem Menlo, Monaco, monospace, serif;
+           display: inline-block;
+           line-height: 1.25;
+           color: #2364cc;
          }
        `}</style>
       </html>
