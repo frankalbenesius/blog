@@ -42,6 +42,8 @@ export default () => (
       }
       h1 {
         font-size: 1em;
+        line-height: 1.25;
+        margin: 0 0 1.25em 0;
       }
       .main {
         flex: none;
