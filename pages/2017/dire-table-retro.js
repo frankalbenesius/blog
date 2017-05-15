@@ -16,7 +16,7 @@ export default () => (
       {' '}
       <Link href="/2017/dire-table">blog post</Link>
       {' '}
-      about my motivation. It was made mostly with SVG, React, Redux, and Firebase. Being the largest side project I've ever followed-through on, this project taught me a lot. In those post, I'm going to share the lessons I've learned. I'm by no means an expert and you might disagree or see errors in what I'm writing. I'm okay with that.
+      about my motivation. It was made mostly with SVG, React, Redux, and Firebase. This project ended up being fairly large and I learned quite a bit in the process. The purpose of this post is to share and document some of those lessons. I'm not really an expert in any one of these technologies and you might disagree or see errors in what I'm writing. If so, I would love to hear from you about your insights. With that said, let's get started:
     </p>
     <h2>1. SVG & React are badass together.</h2>
     <p>
