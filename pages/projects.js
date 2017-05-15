@@ -21,6 +21,12 @@ export default () => (
         A small tool to review your top-played Spotify tracks.
       </p>
     </div>
+    <div className="project">
+      <Link prefetch href="/bagels"><a>Homemade Bagels</a></Link>
+      <p>
+        They're delicious.
+      </p>
+    </div>
 
     <style jsx>{`
       .project {
