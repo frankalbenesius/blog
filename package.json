@@ -16,6 +16,11 @@
     "lint-staged": "^3.4.0",
     "prettier": "^1.0.2"
   },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -24,7 +29,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier --single-quote --trailing-comma all --write",
+      "prettier --write",
       "git add"
     ]
   }

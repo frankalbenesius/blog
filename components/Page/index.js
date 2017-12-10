@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import ReactGA from 'react-ga';
+import Link from 'next/link'
+import ReactGA from 'react-ga'
 
 class Page extends React.Component {
   componentDidMount() {
@@ -9,12 +9,14 @@ class Page extends React.Component {
     }
     ReactGA.set({ page: window.location.pathname })
     ReactGA.pageview(window.location.pathname)
-}
+  }
   render() {
     return (
       <div className="main">
         <div className="logo">
-          <Link prefetch href="/"><a>albenesi.us</a></Link>
+          <Link prefetch href="/">
+            <a>albenesi.us</a>
+          </Link>
         </div>
 
         {this.props.children}
@@ -40,8 +42,8 @@ class Page extends React.Component {
           }
         `}</style>
       </div>
-    );
+    )
   }
 }
 
-export default Page;
+export default Page
