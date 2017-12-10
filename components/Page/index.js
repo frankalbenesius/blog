@@ -1,20 +1,15 @@
 import Link from 'next/link';
 import ReactGA from 'react-ga';
 
-const logPageView = () => {
-  // I'm pretty sure this isn't ideal.
-  // How do I initialize this once instead of every page mount?
-  ReactGA.initialize('UA-81640506-1');
-
-  const page = window.location.pathname;
-  ReactGA.set({ page });
-  ReactGA.pageview(page);
-};
-
 class Page extends React.Component {
   componentDidMount() {
-    logPageView();
-  }
+    if (!window.GA_INITIALIZED) {
+      ReactGA.initialize('UA-81640506-1')
+      window.GA_INITIALIZED = true
+    }
+    ReactGA.set({ page: window.location.pathname })
+    ReactGA.pageview(window.location.pathname)
+}
   render() {
     return (
       <div className="main">
