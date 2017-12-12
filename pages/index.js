@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import Page from '../components/Page';
+import Head from 'next/head'
+import Link from 'next/link'
+import Page from '../components/Page'
 
 export default () => (
   <Page>
@@ -12,8 +12,12 @@ export default () => (
       <div className="main">
         <h1>Frank Albenesius</h1>
         <nav>
-          <Link prefetch href="/blog"><a>Blog</a></Link>
-          <Link prefetch href="/projects"><a>Projects</a></Link>
+          <Link prefetch href="/blog">
+            <a>Blog</a>
+          </Link>
+          <Link prefetch href="/projects">
+            <a>Projects</a>
+          </Link>
           <a target="_blank" href="https://instagram.com/frankalbenesius">
             Instagram
           </a>
@@ -55,4 +59,4 @@ export default () => (
       }
     `}</style>
   </Page>
-);
+)
